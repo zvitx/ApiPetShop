@@ -21,9 +21,9 @@ Exemplo: 03/08/2018 3 5
 Saída: 
 Nome do melhor canil e preço total dos banhos.
 
-----------------------------------------------------------------------------------------------------------------------------------
-Instruções para Executar o Sistema
 
+Instruções para Executar o Sistema
+-----------------------------------------------------------------------------------
 Para executar o programa, basta clonar o repositório e o abrir com uma IDE de preferência, certifique-se também de que as dependências estejam instaladas. Caso contrário, instale-as utilizando o gerenciador de pacotes NuGet.
 Após a execução, uma janela no navegador irá ser executada, o Swagger. Dentro dele, basta entrar no método GET e apertar em "try it out", o sistema solicitará a entrada no seguinte formato: <data>, em dd/MM/yyyy, <quantidade de cães pequenos>, inteiro e <quantidade de cães grandes>, inteiro.
 Informado os inputs, o sistema fará os cálculos com as informações recolhidas e retornará a loja com o melhor preço e o seu nome, em um arquivo do tipo JSON, que pode ser visto logo abaixo, na sessão de "Responses".
@@ -37,7 +37,7 @@ Saída:
 }
 
 Lista de Premissas Assumidas
-================================
+-----------------------------------------------------------------------------------
 . Os preços dos banhos nos petshops não mudam ao longo do dia.
 
 . Os preços dos banhos não são afetados por outros fatores além do dia da semana.
@@ -48,7 +48,7 @@ Lista de Premissas Assumidas
 
 
 Decisões de Projeto
----------------------
+-----------------------------------------------------------------------------------
 1) Linguagem e Framework:
    
 . O sistema foi desenvolvido em C# utilizando o framework .NET para garantir compatibilidade e desempenho.
