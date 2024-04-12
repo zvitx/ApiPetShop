@@ -42,7 +42,7 @@ Lista de Premissas Assumidas
 
 . Os preços dos banhos não são afetados por outros fatores além do dia da semana.
 
-. O critério para escolher o melhor petshop é baseado no menor preço total dos banhos, e em caso de empate, no petshop mais próximo.
+. O critério para escolher o melhor petshop é baseado no menor preço total dos banhos.
 
 . O sistema considera apenas os petshops mencionados: Meu Canino Feliz, Vai Rex e ChowChawgas.
 
@@ -51,11 +51,11 @@ Decisões de Projeto
 -----------------------------------------------------------------------------------
 1) Linguagem e Framework:
    
-. O sistema foi desenvolvido em C# utilizando o framework .NET para garantir compatibilidade e desempenho.
+. O sistema foi desenvolvido em C# utilizando o framework .NET para garantir um bom desempenho.
 
 2) Modelagem de Dados:
    
-. Não há necessidade de banco de dados, pois as informações dos petshops e preços são fixas e não mudam com frequência.
+. Não houve a necessidade da crianção de um banco de dados, pois as informações dos petshops e preços são fixas e não mudam com frequência. Então por meio de uma lista, todas as petshops foram iniciadas com suas respectivas características.
 
 3) Cálculos e Lógica de Negócio:
    
