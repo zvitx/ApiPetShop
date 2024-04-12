@@ -37,7 +37,7 @@ Saída:
 }
 
 Lista de Premissas Assumidas
--------------------------------
+================================
 . Os preços dos banhos nos petshops não mudam ao longo do dia.
 
 . Os preços dos banhos não são afetados por outros fatores além do dia da semana.
